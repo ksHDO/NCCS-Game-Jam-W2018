@@ -1,0 +1,386 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\Nez.PipelineImporter\bin\Debug\Ionic.ZLib.dll
+/reference:..\..\Nez.PipelineImporter\bin\Debug\Newtonsoft.Json.dll
+/reference:..\..\Nez.PipelineImporter\bin\Debug\Nez.dll
+/reference:..\..\Nez.PipelineImporter\bin\Debug\Nez.PipelineImporter.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Textures/tileset.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/tileset.png
+
+#begin Tilemaps/testmap.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:Tilemaps/testmap.tmx
+
+#begin Textures/tempFlightSprite.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/tempFlightSprite.png
+
+#begin nez/source/Bevels.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Bevels.fx
+
+#begin nez/source/BloomCombine.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/BloomCombine.fx
+
+#begin nez/source/BloomExtract.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/BloomExtract.fx
+
+#begin nez/source/Crosshatch.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Crosshatch.fx
+
+#begin nez/source/DeferredLighting.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/DeferredLighting.fx
+
+#begin nez/source/DeferredSprite.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/DeferredSprite.fx
+
+#begin nez/source/Dissolve.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Dissolve.fx
+
+#begin nez/source/Dots.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Dots.fx
+
+#begin nez/source/ForwardLighting.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/ForwardLighting.fx
+
+#begin nez/source/GaussianBlur.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/GaussianBlur.fx
+
+#begin nez/source/Grayscale.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Grayscale.fx
+
+#begin nez/source/HeatDistortion.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/HeatDistortion.fx
+
+#begin nez/source/Invert.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Invert.fx
+
+#begin nez/source/Letterbox.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Letterbox.fx
+
+#begin nez/source/MultiTexture.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/MultiTexture.fx
+
+#begin nez/source/MultiTextureOverlay.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/MultiTextureOverlay.fx
+
+#begin nez/source/Noise.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Noise.fx
+
+#begin nez/source/PaletteCycler.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/PaletteCycler.fx
+
+#begin nez/source/PixelGlitch.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/PixelGlitch.fx
+
+#begin nez/source/PolygonLight.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/PolygonLight.fx
+
+#begin nez/source/Reflection.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Reflection.fx
+
+#begin nez/source/Scanlines.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Scanlines.fx
+
+#begin nez/source/Sepia.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Sepia.fx
+
+#begin nez/source/SpriteAlphaTest.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/SpriteAlphaTest.fx
+
+#begin nez/source/SpriteBlinkEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/SpriteBlinkEffect.fx
+
+#begin nez/source/SpriteEffect.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/SpriteEffect.fx
+
+#begin nez/source/SpriteLightMultiply.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/SpriteLightMultiply.fx
+
+#begin nez/source/SpriteLines.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/SpriteLines.fx
+
+#begin nez/source/Twist.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Twist.fx
+
+#begin nez/source/Vignette.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/Vignette.fx
+
+#begin nez/source/transitions/Squares.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/transitions/Squares.fx
+
+#begin nez/source/transitions/TextureWipe.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/transitions/TextureWipe.fx
+
+#begin nez/source/transitions/Wind.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:nez/source/transitions/Wind.fx
+
+#begin nez/effects/DeferredSprite.mgfxo
+/copy:nez/effects/DeferredSprite.mgfxo
+
+#begin nez/effects/DeferredLighting.mgfxo
+/copy:nez/effects/DeferredLighting.mgfxo
+
+#begin nez/effects/Invert.mgfxo
+/copy:nez/effects/Invert.mgfxo
+
+#begin nez/effects/Letterbox.mgfxo
+/copy:nez/effects/Letterbox.mgfxo
+
+#begin nez/effects/Scanlines.mgfxo
+/copy:nez/effects/Scanlines.mgfxo
+
+#begin nez/effects/Sepia.mgfxo
+/copy:nez/effects/Sepia.mgfxo
+
+#begin nez/effects/transitions/Squares.mgfxo
+/copy:nez/effects/transitions/Squares.mgfxo
+
+#begin nez/effects/transitions/TextureWipe.mgfxo
+/copy:nez/effects/transitions/TextureWipe.mgfxo
+
+#begin nez/effects/transitions/Wind.mgfxo
+/copy:nez/effects/transitions/Wind.mgfxo
+
+#begin nez/effects/Bevels.mgfxo
+/copy:nez/effects/Bevels.mgfxo
+
+#begin nez/effects/BloomCombine.mgfxo
+/copy:nez/effects/BloomCombine.mgfxo
+
+#begin nez/effects/BloomExtract.mgfxo
+/copy:nez/effects/BloomExtract.mgfxo
+
+#begin nez/effects/Crosshatch.mgfxo
+/copy:nez/effects/Crosshatch.mgfxo
+
+#begin nez/effects/Dissolve.mgfxo
+/copy:nez/effects/Dissolve.mgfxo
+
+#begin nez/effects/Dots.mgfxo
+/copy:nez/effects/Dots.mgfxo
+
+#begin nez/effects/ForwardLighting.mgfxo
+/copy:nez/effects/ForwardLighting.mgfxo
+
+#begin nez/effects/GaussianBlur.mgfxo
+/copy:nez/effects/GaussianBlur.mgfxo
+
+#begin nez/effects/Grayscale.mgfxo
+/copy:nez/effects/Grayscale.mgfxo
+
+#begin nez/effects/HeatDistortion.mgfxo
+/copy:nez/effects/HeatDistortion.mgfxo
+
+#begin nez/effects/MultiTexture.mgfxo
+/copy:nez/effects/MultiTexture.mgfxo
+
+#begin nez/effects/MultiTextureOverlay.mgfxo
+/copy:nez/effects/MultiTextureOverlay.mgfxo
+
+#begin nez/effects/Noise.mgfxo
+/copy:nez/effects/Noise.mgfxo
+
+#begin nez/effects/PaletteCycler.mgfxo
+/copy:nez/effects/PaletteCycler.mgfxo
+
+#begin nez/effects/PixelGlitch.mgfxo
+/copy:nez/effects/PixelGlitch.mgfxo
+
+#begin nez/effects/PolygonLight.mgfxo
+/copy:nez/effects/PolygonLight.mgfxo
+
+#begin nez/effects/Reflection.mgfxo
+/copy:nez/effects/Reflection.mgfxo
+
+#begin nez/effects/SpriteAlphaTest.mgfxo
+/copy:nez/effects/SpriteAlphaTest.mgfxo
+
+#begin nez/effects/SpriteBlinkEffect.mgfxo
+/copy:nez/effects/SpriteBlinkEffect.mgfxo
+
+#begin nez/effects/SpriteEffect.mgfxo
+/copy:nez/effects/SpriteEffect.mgfxo
+
+#begin nez/effects/SpriteLightMultiply.mgfxo
+/copy:nez/effects/SpriteLightMultiply.mgfxo
+
+#begin nez/effects/SpriteLines.mgfxo
+/copy:nez/effects/SpriteLines.mgfxo
+
+#begin nez/effects/Twist.mgfxo
+/copy:nez/effects/Twist.mgfxo
+
+#begin nez/effects/Vignette.mgfxo
+/copy:nez/effects/Vignette.mgfxo
+
+#begin Textures/Enemies/bullet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Enemies/bullet.png
+
+#begin Textures/Enemies/enemy1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Enemies/enemy1.png
+
+#begin Tilemaps/map1.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:Tilemaps/map1.tmx
+
+#begin Textures/tileseGamet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/tileseGamet.png
+
